@@ -10,4 +10,4 @@ This is a blog about my dreams.
 
 
 
-- [baby yaml](https://github.com/lingtalfi/Dreamer/blob/master/notation.babyYaml.eng.md)
+- [baby yaml](https://github.com/lingtalfi/Dreamer/blob/master/ArrayConfig/BabyYaml/notation.babyYaml.eng.md)

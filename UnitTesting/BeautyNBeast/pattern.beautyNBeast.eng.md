@@ -42,7 +42,7 @@ To be more specific, we have two distinct roles:
 Communication between Beauty and Beast
 ------------------------------------------
 
-The possible special strings are allowed
+The possible "special strings" are allowed:
 
 - the results string: indicates the results of a page 
 - the retry later string: indicates that the test is not finished yet (happens with js async test for instance)

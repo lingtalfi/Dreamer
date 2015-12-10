@@ -9,7 +9,8 @@ This is a notation to write a php array in an intuitive way.
 
 
 
-### The basic features
+The basic features
+-----------------------
 
 The base unit is a line.
 We write the array line after line, starting from the top and going down.
@@ -23,6 +24,8 @@ banana
 cherry
 ```
 
+### The key and the value
+ 
 In the above example, each line contains a value which represents a fruit.
 But arrays also have keys, so how do we introduce keys?
 We use a symbol to separate the value from the key.
@@ -35,6 +38,10 @@ fruit2: banana
 fruit3: cherry
 ```
 
+When the value sits on the same line than the key, we call it an inline value.
+
+### Indentation for expanded value 
+
 What if we want to put all the fruits in the same array?
 We use indentation to represent the belonginess of a line to another.
 I will use dashes to create the indentation:
@@ -46,6 +53,12 @@ I will use dashes to create the indentation:
 ----- banana
 ----- cherry
 ```
+
+
+When the value is written on subsequent lines, we call it an expanded value.
+
+
+### Value interpretation
 
 What if I want to write an empty array?
 You have to create a special symbol and interpret it yourself.
@@ -63,7 +76,8 @@ Or:
 ```
 
 
-### Multiline
+Multiline
+------------
 
 Sometimes, the value of a line is verbose.
 IndentedLines provides the multi-line mechanism to cope with that problem.
@@ -81,7 +95,8 @@ For instance:
 
 
 
-### Comments
+Comments
+------------
 
 IndentedLines consider three types of comments:
 

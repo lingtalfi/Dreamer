@@ -49,8 +49,8 @@ In this section we illustrate how permissions and links would be applied.
 
 Notes:
 
-- the default separator is the double asterisk (**) but the user should be able to change
-        it to accommodate paths that have the double asterisk (**) in their names.
+- the default separator is the double asterisk (\*\*) but the user should be able to change
+        it to accommodate paths that have the double asterisk (\*\*) in their names.
 
 - the last line tries to set the permission on the target of the link, not the link itself.
 

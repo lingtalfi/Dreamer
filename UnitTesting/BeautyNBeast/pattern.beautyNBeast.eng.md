@@ -89,6 +89,10 @@ Pending tests COULD be retried every 1 second for instance.
 
 
 
+Implementations
+-------------------
 
+- Here is an implementation of the [Beast](https://github.com/lingtalfi/PhpBeast) part in php
+- Here is an implementation of the [Beauty](https://github.com/lingtalfi/Beauty) part in php/js
 
 

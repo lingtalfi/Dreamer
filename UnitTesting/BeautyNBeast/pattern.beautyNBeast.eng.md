@@ -20,6 +20,15 @@ How does it work?
 ---------------------
 
 
+Basically, 
+every language must produce an html page containing a **result string** (see below the format for the result string) 
+indicating the results of the tests, and then we use the browser to display the centralized results (using iframes).
+ 
+The main benefit of this technique is that we are not tied to a specific test framework, we just need to provide
+the tests results.
+
+
+
 To be language agnostic, we use the following technique.
 
 

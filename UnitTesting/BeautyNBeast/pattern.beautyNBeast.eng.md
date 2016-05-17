@@ -44,6 +44,12 @@ visitor to try again later (usually 1 or 2 seconds later).
 This is done by using the bnb protocol described below.
 
 
+Test Page
+------------
+
+A test page is a container for your tests.
+It can use any unit testing framework that you like.
+It's duty is to communicate the test results to the **visitor** using the bnb protocol described below.
 
 
 

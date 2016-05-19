@@ -59,30 +59,30 @@ Bnb protocol
 The bnb protocol is a protocol where two entities communicate together: the emitter and the viewer.
 The emitter provides a string to the viewer; the string contains information about the unit tests being executed.
 
-There are two different string types that an emitter can use:
+There are two different string types that an emitter can use: the **retry later string** and the **test results string**.
 
-- retry later string: indicate that the tests have not finished yet, and that the viewer shall come back later.
-                        (the retry later string is used with languages that allow for async behaviours, like javascript
-                        for instance).
-                        
-                        The retry later string has the following format: 
-                            _BEAST_TEST_NOT_FINISHED_RETRY_LATER__
-                        
-- test results string: indicate the number of executed tests and their status.
 
-                It's format is the following:
-                 
-                    _BEAST_TEST_RESULTS:s=0;f=0;e=0;na=0;sk=0__
-                    
-                Of course, the 0 digits have to be replaced by the actual number.
+### retry later string
+
+The **retry later string** indicates that the tests have not finished yet, and that the 
+viewer shall come back later (the retry later string is used with languages 
+that allow for async behaviours, like javascript for instance).
+                        
+The retry later string has the following format: **_BEAST_TEST_NOT_FINISHED_RETRY_LATER__**
+                        
+### test results string                        
+The **test results string** indicates the number of executed tests and their status.
+
+It's format is the following: **_BEAST_TEST_RESULTS:s=0;f=0;e=0;na=0;sk=0__**
+
+Of course, the 0 digits have to be replaced by the actual number.
+The meaning of the different test types are:
                 
-                The meaning of the different test types are:
-                
-                - s: success, the test could resolve and was successful ( returns true )
-                - f: failure, the test could resolve and was a failure ( returns false )
-                - e: error, the test couldn't resolve: it didn't return either true or false 
-                - na: not applicable, the test makes no sense in this environment
-                - sk: skip, the test has been skipped for an arbitrary user reason
+- s: success, the test could resolve and was successful ( returns true )
+- f: failure, the test could resolve and was a failure ( returns false )
+- e: error, the test couldn't resolve: it didn't return either true or false 
+- na: not applicable, the test makes no sense in this environment
+- sk: skip, the test has been skipped for an arbitrary user reason
 
 
 

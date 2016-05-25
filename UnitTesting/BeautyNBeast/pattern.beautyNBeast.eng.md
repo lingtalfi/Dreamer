@@ -62,7 +62,8 @@ Tests result string
 
 This string, produced by a [test page](https://github.com/lingtalfi/Dreamer/blob/master/UnitTesting/BeautyNBeast/pattern.beautyNBeast.eng.md#test-page), and interpreted 
 by the [visitor](https://github.com/lingtalfi/Dreamer/blob/master/UnitTesting/BeautyNBeast/pattern.beautyNBeast.eng.md#visitor), 
-has the following format: **_BEAST_TEST_RESULTS:s=0;f=0;e=0;na=0;sk=0__**
+has the following format: <br>
+**_BEAST_TEST_RESULTS:s=0;f=0;e=0;na=0;sk=0__**
         
 Of course, the 0 digits have to be replaced by the actual number.
 The meaning of the different test types are:
@@ -79,7 +80,8 @@ Retry later string
 
 The **retry later string**, produced by a [test page](https://github.com/lingtalfi/Dreamer/blob/master/UnitTesting/BeautyNBeast/pattern.beautyNBeast.eng.md#test-page), and interpreted 
 by the [visitor](https://github.com/lingtalfi/Dreamer/blob/master/UnitTesting/BeautyNBeast/pattern.beautyNBeast.eng.md#visitor), 
-has the following format: **_BEAST_TEST_NOT_FINISHED_RETRY_LATER__**.
+has the following format: <br>
+**_BEAST_TEST_NOT_FINISHED_RETRY_LATER__**
         
         
 

@@ -57,7 +57,7 @@ Visitor
         
         
         
-Tests result string       
+Tests result string
 -------------------------
 
 This string, produced by a [test page](https://github.com/lingtalfi/Dreamer/blob/master/UnitTesting/BeautyNBeast/pattern.beautyNBeast.eng.md#test-page), and interpreted 

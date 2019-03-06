@@ -13,7 +13,7 @@ Install
 
 Using the [uni tool](https://github.com/lingtalfi/universe-naive-importer)
 ```bash
-uni import Dreamer
+uni import Ling/Dreamer
 ```
 
 This is a blog about my dreams.

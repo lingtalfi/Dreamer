@@ -1,6 +1,6 @@
 Dreamer
 ===============
-2015-10-14 -> 2021-03-05
+2015-10-14 -> 2021-03-08
 
 
 
@@ -36,6 +36,10 @@ This is a blog about my dreams.
 
 History Log
 ===============
+
+- 1.0.4 -- 2021-03-08
+
+    - fix typo in pattern.beautyNBeast.eng.md
 
 - 1.0.3 -- 2021-03-05
 
